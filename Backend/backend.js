@@ -15,9 +15,9 @@ app.post("/run-flow", async (req, res) => {
     const fetch = (await import("node-fetch")).default; // Dynamically import node-fetch
     const { inputValue } = req.body;
 
-    const flowIdOrName = "d15dac27-2fab-484c-b455-aa8c465374ce";
-    const langflowId = "745ec371-b319-42b9-984f-0e30fd586c1e";
-    const applicationToken = "AstraCS:ZEtSMLhariZyxjZiuQvJDJSY:39ab815aa12dcd199c5943267d1301a928e8fc4861c9d8036c99e697a37f3b41";
+    const flowIdOrName = ""
+    const langflowId = ""
+    const applicationToken = "";
     const baseURL = "https://api.langflow.astra.datastax.com";
 
     const tweaks = {

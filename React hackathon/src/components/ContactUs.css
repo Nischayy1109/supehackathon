@@ -1,0 +1,22 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Full viewport height */
+    text-align: center; /* Center text alignment */
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-container h1 {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-container p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0.5rem 0;
+  }
+  
